@@ -35,3 +35,6 @@ function tensorflow_demo() {
 if (typeof tf === 'undefined') {
     loadScript('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs', tensorflow_demo)
 }
+else {
+    tensorflow_demo()
+}
